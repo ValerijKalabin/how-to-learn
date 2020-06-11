@@ -14,12 +14,84 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
+  display: flex;
+  position: relative;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+.logo {
+  width: 183px;
+}
+
+.logo_place_header {
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 3;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  width: 730px;
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+}
+
+.title_plase_header {
+  margin-left: 64px;
+  align-self: center;
+  z-index: 2;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+  width: 388px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.subtitle_plase-header {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 3;
+}
+
+.link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.main-illustration {
+  width: 765px;
+  height: 608px;
+  background-image: url('../images/header-image.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.main-illustration_plase_header {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+}
+
+.square-pic_plase_header {
+  position: absolute;
+  top: 64px;
+  right: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */

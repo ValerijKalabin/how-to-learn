@@ -31,7 +31,7 @@
   z-index: 3;
 }
 
-.heder__title {
+.header__title {
   margin: 0 0 0 64px;
   padding: 0;
   width: 730px;
@@ -42,7 +42,7 @@
   z-index: 2;
 }
 
-.heder__subtitle {
+.header__subtitle {
   margin: 0;
   padding: 0;
   width: 388px;
@@ -55,12 +55,12 @@
   z-index: 3;
 }
 
-.heder__link {
+.header__link {
   text-decoration: none;
   color: #2f80ed;
 }
 
-.heder__main-illustration {
+.header__main-illustration {
   width: 765px;
   height: 608px;
   background-image: url('../images/header-image.png');
@@ -72,7 +72,7 @@
   z-index: 1;
 }
 
-.heder__square-pic {
+.header__square-pic {
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
@@ -169,7 +169,7 @@
   justify-content: space-between;
 }
 
-.table__cell_theme_light {
+.table__cell {
   width: 250px;
   margin-top: 60px;
 }
@@ -190,7 +190,7 @@
   font-weight: normal;
 }
 
-.feinman {
+.feynman {
   height: 790px;
   padding-top: 100px;
   background-color: #f2f2f2;
@@ -203,7 +203,7 @@
   position: relative;
 }
 
-.feinman__title {
+.feynman__title {
   width: 648px;
   margin: 0 0 70px 0;
   padding: 0;
@@ -213,7 +213,7 @@
   font-weight: bold;
 }
 
-.feinman__subtitle {
+.feynman__subtitle {
   margin: 0;
   padding: 0;
   line-height: 51px;
@@ -221,7 +221,7 @@
   font-weight: normal;
 }
 
-.feinman__link {
+.feynman__link {
   line-height: 51px;
   font-size: 36px;
   text-decoration: none;
@@ -243,6 +243,26 @@
   overflow: hidden;
 }
 
+.kaufman__section-title_theme_dark {
+  margin: 0 0 20px 0;
+  padding: 0;
+  width: 60%;
+  text-align: center;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.kaufman__section-subtitle_theme_dark {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
 .kaufman__triangle {
   width: 877px;
   height: 877px;
@@ -254,10 +274,18 @@
   background-size: contain;
 }
 
-.table__cell_theme_dark {
+.kaufman__table_theme_dark {
   width: 200px;
   margin-top: 80px;
   z-index: 1;
+}
+
+.kaufman__table_text_theme {
+  margin: 20px 0 0 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer {
@@ -288,7 +316,7 @@
   height: 35px;
 }
 
-.footer-author {
+.footer__author {
   margin: 18px 0;
   padding: 0;
   line-height: 25px;

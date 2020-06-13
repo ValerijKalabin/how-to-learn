@@ -104,11 +104,8 @@
 }
 
 .two-columns__main-text {
-  margin: 0;
-  padding: 0;
   width: 80%;
   min-width: 784px;
-  list-style: none;
 }
 
 .two-columns__paragraph {
@@ -289,6 +286,7 @@
   color: #f2f2f2;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -297,10 +295,13 @@
   justify-content: space-between;
 }
 
-.footer__column_content_copyright {
-  flex-basis: 711px;
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
   justify-content: space-between;
   align-items: flex-start;
 }

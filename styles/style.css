@@ -88,9 +88,12 @@
 }
 
 .two-columns {
-  width: 80%;
   display: flex;
   justify-content: space-between;
+}
+
+.two-columns_place_description {
+  width: 80%;
 }
 
 .two-columns__brief {
@@ -135,7 +138,6 @@
 .section-title {
   margin: 0;
   padding: 0;
-  width: 60%;
   text-align: center;
   line-height: 69px;
   font-size: 60px;
@@ -143,17 +145,21 @@
 }
 
 .section-title_theme_light {
+  width: 60%;
   margin-bottom: 20px;
 }
 
 .section-subtitle {
   margin: 0;
   padding: 0;
-  width: 60%;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.section-subtitle_theme_light {
+  width: 60%;
 }
 
 .table {
@@ -252,7 +258,12 @@
 }
 
 .section-title_theme_dark {
+  width: 60%;
   margin-bottom: 20px;
+}
+
+.section-subtitle_theme_dark {
+  width: 60%;
 }
 
 .table__cell_theme_dark {

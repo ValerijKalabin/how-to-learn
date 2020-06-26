@@ -2,7 +2,6 @@
 @import url(./__iframe/video__iframe.css);
 
 .video {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
   padding-top: 100px;
   display: flex;
   flex-direction: column;

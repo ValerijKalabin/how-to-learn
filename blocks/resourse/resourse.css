@@ -2,7 +2,6 @@
 @import url(./__logo/resourse__logo.css);
 
 .resourse {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
   padding: 100px 0 217px;
   display: flex;
   flex-direction: column;

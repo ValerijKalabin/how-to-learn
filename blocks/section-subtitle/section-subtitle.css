@@ -1,5 +1,7 @@
 @import url(./_theme/section-subtitle_theme_light.css);
 @import url(./_theme/section-subtitle_theme_dark.css);
+@import url(./_theme/section-subtitle_theme_video.css);
+@import url(./_theme/section-subtitle_theme_resourse.css);
 
 
 .section-subtitle {
